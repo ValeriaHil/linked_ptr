@@ -10,7 +10,7 @@ class linked_ptr;
 namespace details {
 
 struct linked_ptr_base {
-  constexpr linked_ptr_base() noexcept {
+   linked_ptr_base() noexcept {
     _left = this;
     _right = this;
   };
